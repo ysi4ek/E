@@ -1,0 +1,22 @@
+<web-app 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    id="userservice"
+    version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+  
+  
+  	<servlet>
+  		<servlet-name>ShowUsersServlet</servlet-name>
+  		<servlet-class>servlet.ShowUsersServlet</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>ShowUsersServlet</servlet-name>
+  		<url-pattern>/users</url-pattern>
+  	</servlet-mapping>
+	
+ 	
+</web-app>
